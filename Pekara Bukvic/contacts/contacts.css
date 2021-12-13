@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Rubik", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+  background-image: linear-gradient(
+    rgba(34, 34, 34, 0.4),
+    rgba(34, 34, 34, 0.4)
+  ), url(../contacts/contact-background.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+.contact-section{
+  display: flex;
+  flex-direction: column;
+  margin-left: 13rem;
+  margin-top: 3.6rem;
+  gap: 2.4rem;
+}
+h1{
+  font-size: 4.8rem;
+  margin-left: 20rem;
+  margin-top: 9.6rem;
+  color: #ebd4b7;
+}
+.contact-info{
+  font-size: 2.6rem;
+  color: #f2e3cf;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+iframe{
+  height: 48rem;
+  width: 48rem;
+  border-radius:24px;
+ /* margin-left: 5rem; */
+}
+.address{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.contact-icon{
+font-size: 3.6rem;
+/* margin-bottom: 2.4rem; */
+}
+.phone{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.btn-1 {
+  /* font-size: 1.8rem; */
+  border: 1px solid rgba(128, 128, 128, 0.5);
+  border-radius: 9px 0;
+  padding: 0.8rem 1.6rem;
+  background-color: burlywood;
+  transition: all 0.3s;
+  cursor: pointer;
+  /* margin: 1.6rem 0 0 1.6rem; */
+}
+.btn-1:hover,
+.btn-1:active {
+  background-color: white;
+  color: black;
+}
+
+.btn-2 {
+  text-decoration: none;
+  color: #000;
+  font-size: 2.4rem;}
+
+ .btn-margin{
+margin: 3.6rem;
+ }
